@@ -184,3 +184,45 @@ print("\nEDA COMPLETED SUCCESSFULLY!")
 
 The Titanic dataset was successfully analysed using EDA techniques to identify missing values, duplicates, statistical summaries, patterns and outliers.
 Visualizations helped understand passenger survival, gender distribution, age distribution and correlations between numerical features.
+
+
+
+## Summary 
+
+## Comparison of Libraries and Methods
+
+### 1. Library Comparison
+
+| Selected Library | Alternative | Reason for Selection |
+|---|---|---|
+| Pandas | Polars, Dask | Easy handling of tabular data. |
+| NumPy | SciPy | Suitable for basic numerical operations. |
+| Matplotlib | Plotly, Bokeh | Flexible graph customization. |
+| Seaborn | Plotly | Simple statistical visualizations. |
+
+### 2. EDA Method Comparison
+
+| Selected Method | Alternative | Reason for Selection |
+|---|---|---|
+| `isnull()` | `dropna()` | Identifies missing values before handling them. |
+| `duplicated()` | SQL DISTINCT | Easily detects duplicate records. |
+| `describe()` | Manual calculations | Provides statistical summaries in one step. |
+| Countplot | Pie Chart | Makes category comparisons easier. |
+| Histogram | KDE Plot | Clearly shows numerical frequency distribution. |
+| Heatmap | Scatter Plot | Displays multiple correlations together. |
+| Boxplot | Z-Score | Visually identifies potential outliers. |
+
+### 3. Machine Learning Model Comparison
+
+Machine learning models were not used because this project focuses on understanding and analysing data rather than making predictions.
+
+| Alternative Model | Purpose |
+|---|---|
+| Logistic Regression | Survival prediction |
+| Decision Tree | Classification |
+| Random Forest | Prediction using multiple decision trees |
+| KNN | Classification based on nearest neighbours |
+
+### 4. Reason for Selection
+
+The selected libraries and methods were chosen because they are simple, efficient, beginner-friendly and suitable for the Titanic dataset. They provide clear statistical results and visualizations without unnecessary complexity.
